@@ -111,6 +111,11 @@ nav:after {
 	display:table;
 	clear:both;
 }
+ul{
+    opacity: .6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+}
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
@@ -282,7 +287,9 @@ li > a:only-child:after { content: ''; }
 		width:100%;
 		text-align: center;
 	}
+    ul{
 
+    }
 	/* Change menu item's width to 100% */
 	nav ul li {
 		display: block;
